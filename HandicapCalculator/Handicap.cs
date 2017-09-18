@@ -62,11 +62,6 @@ namespace HandicapCalculator
             }
 
 
-            for (int i = 0; i < 100; i++)
-            {
-                avTable[99-i] = CalculateArrowValue(distance, i, 122);
-            }
-
         }
 
         public int CalculateHandicap(double averageArrow)
